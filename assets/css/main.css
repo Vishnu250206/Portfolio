@@ -123,6 +123,7 @@ body {
 
 img {
 	max-width: 100%;
+	border-radius: 10px;
 }
 
 body {
@@ -711,9 +712,9 @@ body.loaded {
 }
 
 .tj-header-area .logo-box {
-	max-width: 60px;
+	max-width: 15%;
 	width: 100%;
-	margin-right: 35px;
+	margin-right: 10px;
 }
 .tj-header-area .logo-box a {
 	display: inline-block;
@@ -1298,7 +1299,7 @@ body.loaded {
 .portfolio-box .portfolio-item {
 	background-color: var(--tj-theme-accent-2);
 	margin-bottom: 4%;
-	padding: 36px 36px 0 36px;
+	padding: 36px 36px 36px 36px;
 	border-radius: 10px;
 	width: 48%;
 }
@@ -1403,6 +1404,7 @@ body.loaded {
 	box-shadow: 0 0 40px rgba(255, 255, 255, 0.03);
 	margin: 0 auto;
 	position: relative;
+	border-radius: 20px;
 }
 .popup-mfp {
 	overflow: hidden;
@@ -1510,10 +1512,19 @@ body.loaded {
 	height: 100%;
 	-o-object-fit: cover;
 	object-fit: cover;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	padding-bottom: 2px;
 }
 .popup_modal_content {
 	background-color: var(--tj-white);
 	padding-top: 60px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .popup_modal_content .portfolio_info {
 	display: -webkit-box;
@@ -2957,7 +2968,7 @@ blockquote cite::before {
 }
 .copy-text p {
 	margin-bottom: 0;
-	color: var(--tj-theme-primary);
+	color: var(--tj-white);
 	font-weight: var(--tj-fw-light);
 }
 .copy-text p > a {
