@@ -244,7 +244,7 @@ a h6:hover {
 	);
 	border: none;
 	border-radius: 50px;
-	padding: 17px 35px;
+	padding: 13px 30px;
 	-webkit-transition: 0.4s;
 	-o-transition: 0.4s;
 	transition: 0.4s;
@@ -2841,7 +2841,7 @@ blockquote cite::before {
 	border-color: var(--tj-theme-primary);
 }
 .form_btn .btn {
-	padding: 20px 35px;
+	padding: 13px 20px;
 }
 .contact-info-list li {
 	padding-left: 75px;
